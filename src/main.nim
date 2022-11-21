@@ -57,7 +57,8 @@ when isMainModule:
 
   while o.truncated:
     o = listObjects(bucket,
-      prefix = prefix)
+      prefix = prefix,
+      continuationToken = o.nextContinuationToken)
 
     for obj in o.contents:
       chan.send obj

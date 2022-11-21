@@ -1,6 +1,6 @@
 # Package
 
-version          = "0.1.0"
+version          = "0.1.1"
 author           = "Rirush"
 description      = "Downloader of public S3 buckets"
 license          = "MIT"
